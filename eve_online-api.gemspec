@@ -4,8 +4,8 @@ require File.expand_path('../lib/eve_online/api/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Craig R Webster"]
   gem.email         = ["craig@barkingiguana.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Ruby interface to the EVE Online API}
+  gem.summary       = %q{Ruby interface to the EVE Online API}
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
